@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta charset="UTF-8">
+	<title>Happy Birthday my Love ❤️</title>
+
+	<link rel="website icon"
+		href="https://imgs.search.brave.com/HIqlcQPM0vMB3l6YY2WH8AILRq1nxhWr_D5eWqaPt9k/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9lbW9q/aWd1aWRlLm9yZy9p/bWFnZXMvZW1vamkv/bC90ampmbjc5c2hk/b2wucG5n">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/format.css">
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<p style=" font-size: 30px;" class="navbar-brand">With Love 💘</p>
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+				<!-- 6 -->
+				<li id="about"><a>FROM ME</a></li>
+				<li id="about"><a>TO ME</a></li>
+				<li id="contact"><a>TO US</a></li>
+				<li id="home"><a>FROM YOU</a></li>
+				<li id="home"><a>HOME</a></li>
+			</ul>
+		</div>
+	</nav>
+</head>
+
+<body style="margin:0px">
+
+	<canvas></canvas>
+	<div id="imgTxt">
+		<span id="Txt"></span> <br />
+		<span id="tmp"></span>
+		<img id="img" src="">
+	</div>
+	<div id="heartTxt">
+		<span id="clickMe">Click to Play!</span>
+		<div id="heart">
+			<button id="button" onclick="play()"></button>
+		</div>
+	</div>
+	<div id="content">
+		<h2 id="together">My Darling is finally</h2>
+		<div id="timer">
+			<b class="edit" id="y"></b> Years
+			<b class="edit" id="mon"></b> Months
+			<b class="edit" id="week"></b> Weeks
+			<b class="edit" id="d"></b> Days
+			<b class="edit" id="h"></b> Hours
+			<b class="edit" id="m"></b> Minutes
+			<b class="edit" id="s"></b> Seconds
+		</div>
+		<h2 id="together">Old.</h2>
+	</div>
+
+	<div id="typeDiv">
+		<span id="txt1"></span> <br />
+		<span id="txt2"></span>
+	</div>
+
+
+	<script>
+		var ok = 0;
+		var flag = 1;
+		var myImage = document.getElementById("img");
+		var myTxt = document.getElementById("Txt");
+		var imageArray = ["pic/1.jpg", "pic/2.jpg", "pic/3.jpg", "pic/4.jpg",
+			"pic/5.jpg", "pic/6.jpg", "pic/7.png", "pic/8.png",
+			"pic/9.jpg", "pic/10.png", "pic/11.jpg", "pic/12.jpg", "pic/13.jpg",
+			"pic/14.jpg"];
+		var imageIndex = 0;
+		var txtArray = ["Poila toh baccha this.", "Feri toh baccha this but chair maa bas this", "Feri toh didi sita chair maa bas this",
+			"Feri toh khada hunu sikhis", "Toh abo halka thulo vais", "Tero social media phase shuru vayoo", "Feri toh chapri vais",
+			"Anta toh ajjai besi chapri vais", "Finally toh mero saathi vais", "Moh sita basera feri toh funny vais", "Idk yoh toh k vais",
+			"Feri toh gunda vais", "Anta toh broccoli vais", "Finally, toh mero Darling vais."];
+
+		var len = imageArray.length;
+		var t = 0;
+	</script>
+
+	<script type="text/javascript" src="./js/stars.js"></script>
+	<script type="text/javascript" src="./js/typeWriter.js"></script>
+	<script type="text/javascript" src="./js/date.js"></script>
+	<script type="text/javascript" src="./js/playImg.js"></script>
+</body>
+
+</html>
